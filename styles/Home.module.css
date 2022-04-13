@@ -114,3 +114,9 @@
     flex-direction: column;
   }
 }
+
+.gridcolumn {
+  display: grid;
+  grid-template-columns: repeat(auto-fit);
+  justify-content: center;
+}
